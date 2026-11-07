@@ -1,6 +1,6 @@
-﻿using MiBotica.SolPedido.Entidades; // Entidad Clientes
+﻿using MiBotica.SolPedido.Entidades; 
 using MiBotica.SolPedido.Entidades.Core;
-using Newtonsoft.Json;              // Deserialización JSON
+using Newtonsoft.Json;              
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -13,7 +13,7 @@ namespace MiBotica.SolPedido.Cliente.Web.Controllers
 {
     public class ClienteController : Controller
     {
-        //Sustituye el puerto por el puerto real donde corre tu ApiUsuario
+        //Sustituye al puerto donde corre tu ApiUsuario
         string RutaApi = "https://localhost:44368/api/";
         string jsonMediaType = "application/json";
 
